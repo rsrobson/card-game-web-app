@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Card Game Web App</title>
+        <link rel="stylesheet" type="text/css"
+            href="file:///Users/rebekah/Documents/Card%20Game%20Web%20App/css/main.css">
+    </head>
+
+    <body>
+<!--Contains the whole screen-->        
+        <div id="battle-command">
+<!--Contains the upper lefthand column.--> 
+            <div id="player-info">
+                <div id="opponent-info">
+                    <div id="opp-profile">
+                        <div id="opp-name" class="profile-namebox">
+                            <p class="profile-nametag">
+                                <a href="">Opponent</a>
+                            </p>
+                        </div>
+                        <div id="opp-pic" class="profile-pic">
+                            <img id="opp-img" class="profile-image" alt="Your Opponent's Avatar" 
+                            src="file:///Users/rebekah/Documents/Card%20Game%20Web%20App/photos/IMG_2245.jpg"></img>
+                        </div>
+                    </div>
+                    <div id="opp-totals" class="totals-zone">
+                        <div id="opplife-total" class="life-counter">
+                            <div class="hexagon"><span></span></div>
+                        </div>
+                        <div id="opphand-total" class="hand-counter"></div>
+                        <div id="oppdeck-total" class="deck-counter"></div>
+                        <div id="oppgrave-total" class="grave=counter"></div>
+                    </div>
+                </div>
+                <div id="deck-zone">
+                    <div id="opp-grave">
+                        <img id="oppgrave" class="card" alt="Your Opponent's Graveyard" 
+                        src="file:///Users/rebekah/Documents/Card%20Game%20Web%20App/photos/oppgrave.jpeg"></img>
+                    </div>
+                    <div id="opp-deck">
+                        <img id="oppdeck" class="card" alt="Your Opponent's Deck" 
+                        src="file:///Users/rebekah/Documents/Card%20Game%20Web%20App/photos/deck.jpg"></img>
+                    </div>
+                    <div id="my-grave">
+                        <img id="mygrave" class="card" alt="Your Grave" 
+                        src="file:///Users/rebekah/Documents/Card%20Game%20Web%20App/photos/mygrave.jpeg"></img>
+                    </div>
+                    <div id="my-deck">
+                        <img id="mydeck" class="card" alt="Your Deck" 
+                        src="file:///Users/rebekah/Documents/Card%20Game%20Web%20App/photos/deck.jpg"></img>
+                    </div>
+                </div>
+                <div id="my-info">
+                    <div id="my-profile">
+                        <div id="my-name" class="profile-namebox">
+                            <p class="profile-nametag">
+                                <a href="">Me</a>
+                            </p>
+                        </div>
+                        <div id="my-pic" class="profile-pic">
+                            <img id="my-img" class="profile-image" alt="Your Avatar" 
+                            src="file:///Users/rebekah/Documents/Card%20Game%20Web%20App/photos/IMG_2246.jpg"></img>
+                        </div>
+                    </div>
+                    <div id="my-totals" class="totals-zone">
+                        <div id="mylife-total" class="life-counter">
+                            <div class="hexagon"><span></span></div>
+                        </div>
+                        <div id="myhand-total" class="hand-counter"></div>
+                        <div id="mydeck-total" class="deck-counter"></div>
+                        <div id="mygrave-total" class="grave-counter"></div>
+                    </div>
+                </div>
+            </div>
+<!--Contains the upper center column-->            
+            <div id="battlefield">
+                <div id="opponent-zone">
+                    
+                </div>
+                <div id="battle-line">
+
+                </div>
+                <div id="my-zone">
+
+                </div>
+            </div>
+<!--Contains the upper righthand column-->            
+            <div id="quick-glance">
+                <div id="quick-glance1">
+                    <button class="collapsible">EXILED</button>
+                    <button class="collapsible">REVEALED</button>
+                    <button class="collapsible">SHIELDS</button>
+                    <button class="collapsible">TYPE ABILITIES</button>
+                </div>
+                <div id="quick-glance2">
+                    <button class="collapsible">EXILED</button>
+                    <button class="collapsible">REVEALED</button>
+                    <button class="collapsible">SHIELDS</button>
+                    <button class="collapsible">TYPE ABILITIES</button>
+                </div>
+            </div>
+<!--Contains the lower lefthand column.--> 
+            <div id="turn-info"></div>
+<!--Contains the lower center column-->            
+            <div id="hand"></div>
+<!--Contains the lower righthand column-->            
+            <div id="logs"></div>                          
+        </div>
+    </body>
+  
